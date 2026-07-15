@@ -8,3 +8,7 @@
 7.next " dvc add data/"
 now it will ask to do : ("git rm -r --cached 'data' "and "git commit)
 8.Again we do "dvc add data/" (create data.dvc)then "git add .gitignore data.dvc"
+9.now  "dvc commit" and then "dvc push"
+ then do git add commit push to mark the stage as the first version of data 
+10.now make changes to mycode.py to append a new row in data, check changes in the "dvc status"
+11. again - - "dvc commit" and then "dvc push"
