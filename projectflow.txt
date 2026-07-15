@@ -12,3 +12,6 @@ now it will ask to do : ("git rm -r --cached 'data' "and "git commit)
  then do git add commit push to mark the stage as the first version of data 
 10.now make changes to mycode.py to append a new row in data, check changes in the "dvc status"
 11. again - - "dvc commit" and then "dvc push"
+12.then git add -commit push (we are saving v2 of our data at this point)
+13.check dvc/git status, everything should be upto date.
+14.now repeat step 10-12 for v3 of data
